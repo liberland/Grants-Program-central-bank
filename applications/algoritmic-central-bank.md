@@ -21,12 +21,10 @@
 
 ### Overview
 
-Please provide the following:
-
-Algorithmic Central Bank 
-A solution to generate open-source stablecoin that is fully trustless, auditable, and algorithmic.
-The first of its kind in the Polkadot environment, chronically thirsty for good stablecoins.
-We have already built this solution and have operated it for four years on [https://rootstock.io/], a side chain of BTC. Going to expand to Polkadot.
+**Algorithmic Central Bank**  
+A solution to generate open-source stablecoin that is fully trustless, auditable, and algorithmic.  
+The first of its kind in the Polkadot environment, chronically thirsty for good stablecoins.  
+We have already built this solution and have operated it for four years on [https://rootstock.io/], a side chain of BTC. Going to expand to Polkadot.  
 
 ### Project Details
 
@@ -52,11 +50,17 @@ Things that shouldn’t be part of the application (see also our [FAQ](../docs/f
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
+The project fits any ecosystem, because it resolves the volatility issue, common for all crypto. 
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+Investors, traders, business, holders with low risk appetite, liquidity providers;
 - What need(s) does your project meet?
+Stable crypto that is not a stablecoin
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+No. Only DEXes, but we are not a DEX.
   - If so, how is your project different?
+N/A
   - If not, are there similar projects in related ecosystems?
+Yes, on RBTC, our own solution which we are expanding to Polkadot and porting to Substrate.
 
 ## Team :busts_in_silhouette:
 
