@@ -1,10 +1,10 @@
-# Name of your Project
+# Alogrithmic Central Bank
 
 > This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g. `![](image.png)` instead of `<img>`).
 >
 > See the [Grants Program Process](https://github.com/w3f/Grants-Program/#pencil-process) on how to submit a proposal.
 
-- **Team Name:** Legal name of your team (e.g. JsonCorp)
+- **Team Name:** ACB Team
 - **Payment Address:** In the case of fiat payment, please share your bank account privately with grants@web3.foundation via your contact email (see below) and enter the date when you shared the information with us (e.g. Fiat 24.12.1971, 11:59) here. Otherwise, provide the Polkadot (for USDC & USDT) payment address. Please also specify the currency. (e.g. 0x8920... (USDC))
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 1, 2 or 3
 
@@ -12,18 +12,21 @@
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
+**Problem:** Cryptos are left to the volatility of the market, while people expect money to be stable. Stablecoins are bound to fiat money and that creates regulatory and other difficulties. 
 
-If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide name and/or pull request of said grant on the first line of this section.
+**Solution** 
+1. Create a universal solution to set up a Milton Friedman-style "central bank" where the money, while never truly stable, nontheless keeps its value around a certain X with respect to another asset or basket of assets.
+2. Motivate actors to trustlessly enter the bank as liquidity providers, expecting profit.
+3. Have this central bank run wholly automatically without any government or expert oversight.
 
 ### Overview
 
 Please provide the following:
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-- An indication of why your team is interested in creating this project.
+Algorithmic Central Bank 
+A solution to generate open-source stablecoin that is fully trustless, auditable, and algorithmic.
+The first of its kind in the Polkadot environment, chronically thirsty for good stablecoins.
+We have already built this solution and have operated it for four years on [https://rootstock.io/], a side chain of BTC. Going to expand to Polkadot.
 
 ### Project Details
 
