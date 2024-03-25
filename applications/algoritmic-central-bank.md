@@ -153,22 +153,12 @@ The product is finished on another chain; this will be a comprehensive port of t
 
 
 ## Future Plans
-
-Please include here
-
 - we will connect the DApp to a blockchain in the Polkadot environment in such a way that every parachain can benefit
 - get **thorough** audits on all our products
 - we will use the promotion by our partners, amongst which is Liberland and all the channels and our community already built on Rootstock
 - we will allow the collateralization by more assets, including Liberland assets
 - we will port the solution to other blockchain
 - we will enable the use of the stablecoin on DEXes in the Polkadot Environment
-
-## Referral Program (optional) :moneybag:
-
-You can find more information about the program [here](../README.md#moneybag-referral-program).
-
-- **Referrer:** Name of the Polkadot Ambassador or GitHub account of the Web3 Foundation grantee
-- **Payment Address:** Polkadot/Kusama (USDT/USDC) payment address. Please also specify the currency. (e.g. 0x8920... (USDT))
 
 ## Additional Information :heavy_plus_sign:
 
