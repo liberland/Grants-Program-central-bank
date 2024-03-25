@@ -134,7 +134,7 @@ The product is finished on another chain; this will be a comprehensive port of t
 
 - **Estimated duration:** 3 months
 - **FTE:**  2
-- **Costs:** 45 000 USD
+- **Costs:** 30 000 USD
 
 > :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one.
 
