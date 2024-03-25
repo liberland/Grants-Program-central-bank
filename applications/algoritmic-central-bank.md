@@ -59,10 +59,10 @@ The project fits any ecosystem because it resolves the volatility issue, which i
 The more blockchains the project runs on, the more influence it will have, which fulfils Web3's ideology of enabling multiple concurrent solutions with small differences to run in parallel.
 
 - Target audience: 
-* traders
-* holders
-* people wanting to hedge against bear markets
-* low risk and high risk people
+1. traders
+2.  holders
+3.  people wanting to hedge against bear markets
+4.  low risk and high risk people
 
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
   
@@ -118,22 +118,12 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ## Development Status :open_book:
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
+The product is finished on another chain; this will be a comprehensive port of the entire project to the Polkadot environment.
 
-- links to improvement proposals or [RFPs](https://github.com/w3f/Grants-Program/tree/master/docs/RFPs) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Web3 Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
+- This is our first interaction with the Polkadot environment and the Web3 Foundation. 
+- We have built the project entirely by our own power but would appreciate your help getting it into the Polkadot community.
 
 ## Development Roadmap :nut_and_bolt:
-
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/Support%20Docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We *recommend* that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-> :exclamation: If any of your deliverables is based on somebody else's work, make sure you work and publish *under the terms of the license* of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Projects that submit other people's work without proper attribution will be immediately terminated.**
-
 ### Overview
 
 - **Total Estimated Duration:** 3 months
