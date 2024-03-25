@@ -12,38 +12,36 @@
 
 ## Project Overview :page_facing_up:
 
-**Problem:** Cryptos are left to the volatility of the market, while people expect money to be stable. Stablecoins are bound to fiat money and that creates regulatory and other difficulties. 
+Cryptos are left to the volatility of the market, while people expect money to be stable. Stablecoins are bound to fiat money, which creates regulatory and other difficulties. 
 
-**Solution** 
-1. Create a universal solution to set up a Milton Friedman-style "central bank" where the money, while never truly stable, nontheless keeps its value around a certain X with respect to another asset or basket of assets.
-2. Motivate actors to trustlessly enter the bank as liquidity providers, expecting profit.
+1. Create a universal solution to set up a Milton Friedman-style "central bank" where the money, while never truly stable, nonetheless keeps its value around a certain X with respect to another asset or basket of assets.
+2. Motivate actors to trustlessly enter the bank as liquidity providers, expecting a profit.
 3. Have this central bank run wholly automatically without any government or expert oversight.
 
 ### Overview
 
-**Algorithmic Central Bank**  
-A solution to generate open-source stablecoin that is fully trustless, auditable, and algorithmic.  
-The first of its kind in the Polkadot environment, chronically thirsty for good stablecoins.  
-We have already built this solution and have operated it for four years on [https://rootstock.io/], a side chain of BTC. Going to expand to Polkadot.  
+* A solution to generate open-source stablecoin that is fully trustless, auditable, and algorithmic.  
+* The first of its kind in the Polkadot environment, chronically thirsty for good stablecoins.  
+* The team has already built this solution and have operated it for four years on [https://rootstock.io/], a side chain of BTC. Going to expand to Polkadot.  
 
 ### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+Build a stablecoin on the Assets Pallet backed by Bitcoin (BTC) or other currencies such as Polkadot (DOT). **Start with wrapped Bitcoin (BTC) to keep the solution similar to what already works on Rootstock.**
 
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+This is not a purely algorithmic solution but a hybrid algorithmic-asset-backed system, as earlier purely algorithmic solutions failed.
 
+The assets backing the stablecoin are kept locked in a **smart contract**, which is both completely trustless and decentralized.
+No authority has access to the wallets, and the only way to release these assets is to compensate for the temporary loss of peg if it happens.
 
-Things that shouldn’t be part of the application (see also our [FAQ](../docs/faq.md)):
+Ratio of backing is 13*1. The assets covering the stablecoin are Bitcoin (BTC) - or any other assets chosen for the new solution - and so they themselves are not stable. Room must be given for significant fluctuations of up to 80 or 90 percent downwards. That is why **over-collateralization** is a necessary element.
 
-- The (future) tokenomics of your project
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
+Build a DApp which allows an open number of users to interact with the smart contracts to:
+* invest in the backing assets
+* get back ROI based on calculated APR/APY
+* purchase the stablecoin.
+* trade the stablecoin before it becomes listed on other platforms.
+
+As collateralization increases, more stablecoins will be released into the system keeping the 13*1 ratio. This will enable the stablecoins to hold peg even where the backing asset (BTC, DOT, etc.) loses value rapidly and significantly, e.g. in a harsh bear market. 
 
 ### Ecosystem Fit
 
