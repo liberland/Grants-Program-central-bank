@@ -75,8 +75,8 @@ N/A
   - If not, are there similar projects in related ecosystems?
     
 Yes, on RBTC, the team's own solution, Money on Chain, which we are expanding to Polkadot and porting to Substrate.  
-*
-## Team :busts_in_silhouette:
+
+\color{#D29922}\ # Team :busts_in_silhouette:
 
   ### Team members
 - Dorian Stern-Vukotic, Senior Developer
@@ -105,8 +105,6 @@ Our team has extensive experience in developing blockchain solutions. We have be
 
 - [Dorian Stern-Vukotic](https://www.linkedin.com/in/djstern)
 - [Kacper Zuk](https://www.linkedin.com/in/kacperzuk/)
-
-*
 
 ## Development Status :open_book:
 
