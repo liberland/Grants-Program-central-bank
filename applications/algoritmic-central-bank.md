@@ -77,44 +77,37 @@ N/A
 Yes, on RBTC, the team's own solution, Money on Chain, which we are expanding to Polkadot and porting to Substrate.  
 
 ## Team :busts_in_silhouette:
+<span style="color:yellow">
 
-### Team members
-
-- Name of team leader
-- Names of team members
+  ### Team members
+- Dorian Stern-Vukotic, Senior Developer
+- Kacper Zuk, Senior Developer
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:** Dorian Štern Vukotić
+- **Contact Email:** [dorian.sternvukotic@gmail.com ]
+- **Website:** [Liberland](www.liberland.org)
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** 3/F, Chinachem Tower, 34-37 Connaught Road Central, Hong Kong
+- **Registered Legal Entity:** Liberland Limited
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
-
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+Our team has extensive experience in developing blockchain solutions. We have been working on the Liberland Blockchain, a layer 1 public blockchain owned by coin and token holders. All team members individually have 7+ years of software engineering experience with 1+ years experience with blockchain technologies, primarily Substrate, Rust and Solidity. The codebase is a fork of Substrate/Polkadot, and the license is MIT, the same as Bitcoin. Liberland does not claim ownership of the blockchain or related materials.
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
-
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- [Liberland GitHub](https://github.com/liberland/liberland)
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- [Dorian Stern-Vukotic](https://www.linkedin.com/in/djstern)
+- [Kacper Zuk](https://www.linkedin.com/in/kacperzuk/)
 
+</span>
 
 ## Development Status :open_book:
 
