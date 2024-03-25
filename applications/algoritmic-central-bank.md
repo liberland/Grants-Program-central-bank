@@ -30,7 +30,7 @@ Build a stablecoin on the Assets Pallet backed by Bitcoin (BTC) or other currenc
 
 This is not a purely algorithmic solution but a hybrid algorithmic-asset-backed system, as earlier purely algorithmic solutions failed.
 
-The assets backing the stablecoin are kept locked in a **smart contract**, which is both completely trustless and decentralized.
+The assets backing the stablecoin are kept locked in a **pallet that replaces our smart contract**, which is both completely trustless and decentralized.
 No authority has access to the wallets, and the only way to release these assets is to compensate for the temporary loss of peg if it happens.
 **A reputable audit firm must audit the smart contract and must be simple - already written, must only be ported to Polkadot (and re-audited there).**
 
@@ -136,15 +136,15 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested.
+- **Total Estimated Duration:** 3 months
+- **Full-Time Equivalent (FTE):**  2 FTE
+- **Total Costs:** 45 000 USD.
 
-### Milestone 1 Example — Basic functionality
+### Milestone 1 — Porting the existing solution to Polkadot
 
-- **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **Estimated duration:** 3 months
+- **FTE:**  2
+- **Costs:** 45 000 USD
 
 > :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one.
 
@@ -155,29 +155,23 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
-
-
-### Milestone 2 Example — Additional features
-
-- **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
-
-...
+| 1. | Asset: algorithmic stablecoin| We will create an Asset for our Stablecoin using the Assets pallet |
+| 2. | Substrate module: Collateralization | The Substrate will enable the holding of the assets that cover the stablecoin - wrapped BTC, Polkadot (DOT) and others |
+| 3. | Substrate module: Pegging | The Substrate module will algoritmically reflect the purchase to sales ratio of the Stablecoin using the data from the Assets module to enable auto pegging (sales/purchases of the Asset |
+| 4. | Substrate chain | Modules 1. and 2. will interact in such a way that the collateralizing asset is used to stabilize the market for the Asset being developed |
+| 5. | Front end: | We will port the front end we already use and make it Polkadot/Specific.
 
 
 ## Future Plans
 
 Please include here
 
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+- we will connect the DApp to a blockchain in the Polkadot environment in such a way that every parachain can benefit
+- get **thorough** audits on all our products
+- we will use the promotion by our partners, amongst which is Liberland and all the channels and our community already built on Rootstock
+- we will allow the collateralization by more assets, including Liberland assets
+- we will port the solution to other blockchain
+- we will enable the use of the stablecoin on DEXes in the Polkadot Environment
 
 ## Referral Program (optional) :moneybag:
 
@@ -188,10 +182,9 @@ You can find more information about the program [here](../README.md#moneybag-ref
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?** Personal recommendation by the Liberland Team, which was awarded a grant for the Liberland Blockchain.
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+- The solution is all built and running on another blockchain
+- The current conversion is however total and is going to be very demanding in FTE and knowledge
