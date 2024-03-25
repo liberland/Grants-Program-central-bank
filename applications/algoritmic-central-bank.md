@@ -22,7 +22,7 @@ Cryptos are left to the volatility of the market, while people expect money to b
 
 * A solution to generate open-source stablecoin that is fully trustless, auditable, and algorithmic.  
 * The first of its kind in the Polkadot environment, chronically thirsty for good stablecoins.  
-* The team has already built this solution and have operated it for four years on [https://rootstock.io/], a side chain of BTC. Going to expand to Polkadot.  
+* The team has already built this solution and has operated it for four years on [https://rootstock.io/], a side chain of BTC. Going to expand to Polkadot.  
 
 ### Project Details
 
@@ -32,36 +32,41 @@ This is not a purely algorithmic solution but a hybrid algorithmic-asset-backed 
 
 The assets backing the stablecoin are kept locked in a **smart contract**, which is both completely trustless and decentralized.
 No authority has access to the wallets, and the only way to release these assets is to compensate for the temporary loss of peg if it happens.
+**A reputable audit firm must audit the smart contract and must be simple - already written, must only be ported to Polkadot (and re-audited there).**
 
 Ratio of backing is 13*1. The assets covering the stablecoin are Bitcoin (BTC) - or any other assets chosen for the new solution - and so they themselves are not stable. Room must be given for significant fluctuations of up to 80 or 90 percent downwards. That is why **over-collateralization** is a necessary element.
 
-Build a DApp which allows an open number of users to interact with the smart contracts to:
-* invest in the backing assets
+Build a DApp which allows an open number of users to interact with the smart contracts. There are only 4 simple functions:
+* Invest in the backing assets
 * get back ROI based on calculated APR/APY
 * purchase the stablecoin.
 * trade the stablecoin before it becomes listed on other platforms.
 
-As collateralization increases, more stablecoins will be released into the system keeping the 13*1 ratio. This will enable the stablecoins to hold peg even where the backing asset (BTC, DOT, etc.) loses value rapidly and significantly, e.g. in a harsh bear market. 
+As collateralization increases, more stablecoins will be released into the system, keeping the 13*1 ratio. This will enable the stablecoins to hold a peg even where the backing asset (BTC, DOT, etc.) loses value rapidly and significantly, e.g. in a harsh bear market. 
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
+There is nothing like this anywhere in the environment. Stablecoins like aUSD (Accala) collapse, and this seems to be the fate of all the purely algorithmic stablecoins.
 
-- Where and how does your project fit into the ecosystem?
+- What need (s) does your project meet?
 
-The project fits any ecosystem, because it resolves the volatility issue, common for all crypto.   
+Dependence on USDC and USDT is not a long-term option and is not what Web3 is supposed to be about. The absence of decentralized stablecoins is a great flaw in the modern Web3 system, bound to be exploited and generate the worst crash in many crypto cycles.
 
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+The proposed solution hybridizes the algorithm with backing by assets.
 
-Investors, traders, business, holders with low risk appetite, liquidity providers;  
+The project fits any ecosystem because it resolves the volatility issue, which is common for all crypto, but is offered to the Web3 environment of Polkadot because we believe this is the best next step up from Bitcoin (BTC). 
 
-- What need(s) does your project meet?
+The more blockchains the project runs on, the more influence it will have, which fulfils Web3's ideology of enabling multiple concurrent solutions with small differences to run in parallel.
 
-Stable crypto that is not a stablecoin  
+- Target audience: 
+* traders
+* holders
+* people wanting to hedge against bear markets
+* low risk and high risk people
 
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
   
-No. Only DEXes, but we are not a DEX.  
+No. Only DEXes, but we are not a DEX. Algoritmic stablecoins fail and continue to fail. 
 
   - If so, how is your project different?
     
@@ -69,7 +74,7 @@ N/A
 
   - If not, are there similar projects in related ecosystems?
     
-Yes, on RBTC, our own solution Money on Chain which we are expanding to Polkadot and porting to Substrate.  
+Yes, on RBTC, the team's own solution, Money on Chain, which we are expanding to Polkadot and porting to Substrate.  
 
 ## Team :busts_in_silhouette:
 
